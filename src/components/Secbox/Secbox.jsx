@@ -13,28 +13,28 @@ const Secbox = ({weather}) => {
                 <h2 className='max-temp'>Temp Max</h2>
                 <div className="imgbox">
                   <p>{weather?.maxTemp}°</p>
-                  <img src="./public/assets/max.svg" alt="" />
+                  <img src="/assets/max.svg" alt="" />
                 </div>
             </div>
             <div className="box box2">
                 <h3 className='min-temp'>Temp Min</h3>
                 <div className="imgbox">
                   <p>{weather?.minTemp}°</p>
-                  <img src="./public/assets/min.svg" alt="" />
+                  <img src="/assets/min.svg" alt="" />
                 </div>
             </div>
             <div className="box box3">
                 <h4 className='humidity'>Humidity</h4>
                 <div className="imgbox">
                   <p>{weather?.humidity}%</p>
-                  <img src="./public/assets/humidity.svg" alt="" />
+                  <img src="/assets/humidity.svg" alt="" />
                 </div>
             </div>
             <div className="box box4">
                 <h5 className='wind-speed'>Wind speed</h5>
                 <div className="imgbox">
                   <p>{weather?.windSpeed}km/h</p>
-                  <img src="./public/assets/wind.svg" alt="" />
+                  <img src="/assets/wind.svg" alt="" />
                 </div>
             </div>
 
