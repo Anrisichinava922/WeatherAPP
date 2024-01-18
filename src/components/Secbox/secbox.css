@@ -1,0 +1,58 @@
+.blari{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 590px;
+    flex-shrink: 0;
+    border-top: 5px solid rgba(255, 255, 255, 0.14);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(9.5px);
+}
+.winatext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 37px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.max-temp, .min-temp, .humidity, .wind-speed{
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+p, h6{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sicariele{
+    width: 285px;
+    height: 50px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #FFF;
+}
+.imgbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

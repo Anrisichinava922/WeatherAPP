@@ -1,0 +1,36 @@
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 0 30px 22px;
+    column-gap: 30px;
+}
+.weather{
+  color: #FFF;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -5.12px;
+}
+.gverdzee{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: start;
+}
+.city{
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.date{
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
